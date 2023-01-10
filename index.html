@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href='https://drive.google.com/uc?export=view&id=17iFEoxNoDz0h3OEg6IJUU4Ht_oh4NqaT'>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Amatic SC" rel="stylesheet">
+        <title>儒家百科</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    </head>
+    <body>
+        <!--partial:index.partial.html-->
+        <!--Header-->
+        <!--Search form-->
+        <div class="mx-auto" style="align-items: center; background-color: darkgoldenrod; display: block; width: 100%;">
+            <center>  
+                <div style="display: block; height: 5px;"></div>                  
+                <input type="text" id="wiki-search-input" placeholder="随便搜索..." style="width: 1000px; height: 15px;">
+                <button id="btn-wiki" class="btn btn-danger"><i class="fa fa-search" aria-hidden="true" style="width: 30px;"></i></button> 
+                <div style="display: block; height: 5px;"></div>               
+            </center>
+        </div>
+        <!--White Display-->
+        <center class="container-fluid jumbotron" id="leftmenuinner" style="float: left; min-height: 100%; width: 200px; height: auto; margin-right: 10px; display: block;">              
+            <img src="https://drive.google.com/uc?export=view&id=17iFEoxNoDz0h3OEg6IJUU4Ht_oh4NqaT" alt="Logo of 儒家百科" width="150px" height="150px" style="margin-top: 15px;">
+            <h1 class="text-danger text center" style="margin-top: auto;">儒家百科</h1>         
+        </center>
+        <div id="content_of_text">
+            <p id="press_enter_note">请按“回车”键发起检索</p>
+            <div id="wiki-results" class="wiki-results mx-3" style="margin-bottom: 10px;"></div>   
+        </div>
+        <!--End White Display-->
+        <!--Footer-->
+        <footer class="footer bg-danger">
+            <div class="container text-white text-center">
+                <div style="height: 19px;"></div>
+                <p id="square" style="text-align: center; color: wheat;">© Unknow Union 2022-<script>document.write( new Date().getFullYear() );</script><br>版权所有， 侵权必究</p>
+            </div>
+        </footer>
+        <!--partial-->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+    </body>
+</html>

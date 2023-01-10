@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+html, body {
+  height: 100%;
+  background-color: gainsboro;
+}
+
+h1, .footer, #press_enter_note{
+  
+  font-family: '宋体';
+  font-weight: normal;
+  color: black;
+}
+.jumbotron {
+  margin-top: 0px;
+}
+#content_of_text{
+  display: block;
+  height: auto;
+  min-height: 100%;
+  overflow-y: auto;
+  background-color: whitesmoke;
+}
+/*Search results */
+a:link {
+  color: rgb(38, 59, 214);
+}
+
+a:active {
+  color: #de2f29;
+}
+
+a:visited {
+  color: #8c0f9a;
+}
+
+/*Sticky Footer*/
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px;
+  height: 60px;
+  background-size: 100% 300px;
+  clear: both;
+  background-color: darkred;
+  display: block;
+  height: 99px;
+}
+#wiki-results, #press_enter_note {
+  padding-left: 5px;
+}
+
+/*Input form*/
+#wiki-search-input {
+  width: 200px;
+  height: 35px;
+  padding-left: 5px;
+}

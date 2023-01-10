@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../style.css">
+    </head>          
+    <body>
+        <script>
+            const iframe = (document.getElementById("The_Base_Page") as HTMLIFrameElement);
+            function RemixIframe() {
+                const content = iframe.contentWindow;
+                console.log("hahaha")
+            }
+        </script>  
+        <iframe src="../index.html" name="The_Base_Page" id="The_Base_Page" frameborder="0" scrolling="auto" style="width: 100%; height: 100%; display: block;" onload="RemixIframe()"></iframe>
+    </body>
+
+</html>
